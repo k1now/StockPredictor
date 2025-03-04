@@ -1,0 +1,32 @@
+body {
+    background: url("./src/image.webp") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    width: 60%;
+    color: white;
+}
+
+.card-header {
+    background: transparent;
+    color: white;
+    text-align: center;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: black;
+}
